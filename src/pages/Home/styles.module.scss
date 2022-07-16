@@ -1,10 +1,24 @@
 
 .container {
     width: 80%;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     margin: auto;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        section {
+            position: absolute;
+
+            img {
+                display: none;
+            }
+        }
+    }
 
     section {
         width: 50%;

@@ -11,6 +11,9 @@
 body {
     background: url(../assets/img/background.png);
     font-family: 'Lexend', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
     h1 {
         font-size: 2rem;
