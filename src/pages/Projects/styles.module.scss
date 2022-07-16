@@ -12,7 +12,9 @@
 
     section {
         display: flex;
+        justify-content: center;
         flex-direction: row;
         margin-top: 2rem;
+        flex-wrap: wrap;
     }
 }
