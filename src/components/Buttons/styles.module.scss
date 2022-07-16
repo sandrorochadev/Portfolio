@@ -1,0 +1,26 @@
+@use '../../styles/variables';
+
+.btnGithub:hover {
+    background-color: variables.$color-black;
+}
+
+.btnLinkedin:hover {
+    background-color: variables.$color-lightblue;
+}
+
+.btnEmail:hover {
+    background-color: variables.$color-pink;
+}
+
+button {
+    margin: 1rem;
+
+    &:hover {
+        transition: ease 1s;
+    }
+
+    svg {
+        margin-right: .5rem;
+        color: variables.$color-white;
+    }
+}

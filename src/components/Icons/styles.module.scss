@@ -1,0 +1,44 @@
+@use '../../styles/variables';
+
+@mixin theme($theme: color) {
+    color: $theme;    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+
+    .orange {
+        @include theme($theme: variables.$color-orange);
+    }
+    
+    .blue {
+        @include theme($theme: variables.$color-blue);
+    }
+
+    .yellow {
+        @include theme($theme: variables.$color-yellow);
+    }
+
+    .pink {
+        @include theme($theme: variables.$color-pink);
+    }
+
+    .lightblue {
+        @include theme($theme: variables.$color-lightblue);
+    }
+
+    li {
+        width: 3rem;
+        height: 3rem;
+        margin: 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: variables.$color-transparent;
+        border-radius: 50%;
+        font-size: 1.5rem;
+    }
+}
+
