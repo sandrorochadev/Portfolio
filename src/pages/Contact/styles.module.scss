@@ -7,6 +7,23 @@
     align-items: center;
     margin: auto;
 
+    @media (max-width: 425px) {
+        section {
+            width: 100%;
+
+            p {
+                font-size: .75rem;
+            }
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
     h2 {
         margin-top: 1rem;
         text-align: center;
@@ -29,5 +46,4 @@
             margin-top: 1rem;
         }
     } 
-    
 }
