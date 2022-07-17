@@ -3,10 +3,9 @@
 ### 💬 Descrição
 
 Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, além de compartilhar experiência e conhecimentos adquiridos. Os projetos disponíveis no Portfólio são atualizados no próprio Github, com as informações sendo consumidas através da sua [API](https://docs.github.com/pt/rest/users).
-[link](https://portfolio-bay-seven-79.vercel.app/).
 
 <a href="https://portfolio-bay-seven-79.vercel.app/" alt="Portfolio">
-<img src="https://img.shields.io/badge/Portfolio-f72585?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Portfolio-f72585?style=for-the-badge"/></a>
 
 ### 💾 Instalação
 
