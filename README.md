@@ -14,7 +14,6 @@ Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, al
 
 * Vite
 * React
-* JSX
 * Sass
 
 ### 📦 Pacotes e dependências
