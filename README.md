@@ -1,8 +1,9 @@
-## 🚀 *Portfolio*
+## 🚀 **Portfolio**
 
 ### 💬 Descrição
 
-Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, além de compartilhar experiência e conhecimentos adquiridos. Os projetos disponíveis no Portfólio são atualizados no próprio Github, com as informações sendo consumidas através da sua [API](https://docs.github.com/pt/rest/users). [Clique aqui para visualizar](https://portfolio-bay-seven-79.vercel.app/).
+Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, além de compartilhar experiência e conhecimentos adquiridos. Os projetos disponíveis no Portfólio são atualizados no próprio Github, com as informações sendo consumidas através da sua [API](https://docs.github.com/pt/rest/users).
+[link](https://portfolio-bay-seven-79.vercel.app/).
 
 ### 💾 Instalação
 
@@ -10,7 +11,7 @@ Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, al
 
 ### 💻 Tecnologias
 
-* REACT
+* React
 * JSX
 * Sass
 
