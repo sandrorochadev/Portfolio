@@ -12,13 +12,13 @@ Site desenvolvido para compartilhar projetos desenvolvidos e rede de contato, al
 
 ### 💻 Tecnologias
 
+* Vite
 * React
 * JSX
 * Sass
 
 ### 📦 Pacotes e dependências
 
-* [vite](https://vitejs.dev/)
 * [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 * [react-simple-typewriter](https://www.npmjs.com/package/react-simple-typewriter)
 * [react-icons](https://react-icons.github.io/react-icons/)
