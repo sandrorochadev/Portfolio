@@ -9,7 +9,7 @@ export default function Card() {
         .then(data => setRepositories(data))
     }, [])
 
-    const repositoriesFilter = repositories.filter(item => item.homepage !== null && item.name !== 'Portfolio')
+    const repositoriesFilter = repositories.filter(item => item.homepage !== null && item.homepage !== '' && item.name !== 'Portfolio')
 
     return (
         <>
