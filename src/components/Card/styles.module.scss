@@ -3,35 +3,21 @@
 .cardContainer {
     width: 15rem;
     height: 20rem;
-    padding: 1rem;
+    padding: 2rem 1rem;
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     background-color: variables.$color-transparent;
     border-radius: .25rem;
     cursor: pointer;
     
     &:hover {
-        transition: ease 2s;
-
-        p {
-            display: block;
-        }
-
         button {
-            display: block;  
+            background-color: variables.$color-transparent-2;
+            transition: ease-out .5s;
         }
     }
 
-    p {
-        display: none;
-        margin-top: .5rem;
-    }
-
-    button {
-        display: none;
-        margin-top: 1rem;
-    }
 }

@@ -16,7 +16,7 @@ button {
     margin: 1rem;
 
     &:hover {
-        transition: ease 1s;
+        transition: ease-out .5s;
     }
 
     svg {
