@@ -18,7 +18,7 @@ export default function Card() {
                         <div key={repository.id} className={styles.cardContainer}>
                             <h4>{repository.name}</h4>
                             <p>{repository.description}</p>
-                            <button><a href={`${repository.homepage}`}>clique aqui</a></button>
+                            <button><a href={`${repository.homepage}`} target="_blank">clique aqui</a></button>
                         </div>
                     )
                 })
