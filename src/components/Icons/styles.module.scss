@@ -29,6 +29,10 @@ ul {
         @include theme($theme: variables.$color-lightblue);
     }
 
+    .green {
+        @include theme($theme: variables.$color-green);
+    }
+
     li {
         width: 3rem;
         height: 3rem;
