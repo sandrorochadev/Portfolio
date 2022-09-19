@@ -1,26 +1,36 @@
 @use '../../styles/variables';
 
-.btnGithub:hover {
-    background-color: variables.$color-black;
-}
+nav {
+    display: flex;
+    align-items: center;    
+    
+    button {
+        width: 7.5rem;
+        padding: .5rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        cursor: pointer; 
+        display: flex;
+        align-items: center;
+        background-color: variables.$color-purple;
 
-.btnLinkedin:hover {
-    background-color: variables.$color-lightblue;
-}
-
-.btnEmail:hover {
-    background-color: variables.$color-pink;
-}
-
-button {
-    margin: 1rem;
-
-    &:hover {
-        transition: ease-out .5s;
+        &:hover {
+            transition: .5s ease-in-out;
+            background-color: variables.$color-purple-hover;
+        }
+        
+        svg {
+            font-size: 1rem;
+            margin-right: .5rem;
+            color: variables.$color-white;
+        }
     }
 
-    svg {
-        margin-right: .5rem;
-        color: variables.$color-white;
+    @media (max-width: 425px) {
+        flex-direction: column;
+        
+        button {
+            margin: .5rem;
+        }
     }
 }

@@ -1,48 +1,29 @@
 @use '../../styles/variables';
 
-@mixin theme($theme: color) {
-    color: $theme;    
-}
-
 ul {
     display: flex;
     list-style-type: none;
     margin-top: 1rem;
 
-    .orange {
-        @include theme($theme: variables.$color-orange);
+    li {
+        margin: 0 1rem;
+        font-size: 1.5rem;
     }
-    
+
     .blue {
-        @include theme($theme: variables.$color-blue);
+        color: variables.$color-blue;
     }
 
     .yellow {
-        @include theme($theme: variables.$color-yellow);
+        color: variables.$color-yellow;
     }
 
     .pink {
-        @include theme($theme: variables.$color-pink);
-    }
-
-    .lightblue {
-        @include theme($theme: variables.$color-lightblue);
+        color: variables.$color-pink;
     }
 
     .green {
-        @include theme($theme: variables.$color-green);
-    }
-
-    li {
-        width: 3rem;
-        height: 3rem;
-        margin: 1rem 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: variables.$color-transparent;
-        border-radius: 50%;
-        font-size: 1.5rem;
+        color: variables.$color-green;
     }
 }
 

@@ -1,27 +1,25 @@
 @use '../../styles/variables';
 
 header {
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   width: 100%;
+   height: 20vh;
+   display: flex;
+   align-items: center;
+   padding-left: 4rem;
     
     nav {
         position: relative;
         display: block;
-        padding: 1.25rem 0;
     }
 
     a {
-        font-size: 1.25rem;
+        font-family: 'Lexend', sans-serif;
         font-weight: 400;
-        margin: 1rem;
-        padding: 0.5rem 0;
+        margin-right: 2rem;
+        padding-bottom: .5rem;
         display: inline-block;
         position: relative;
         text-decoration: none;
-        color: variables.$color-white;
 
         &:after {
             content: '';
@@ -32,7 +30,7 @@ header {
             width: 100%;
             height: 0.15rem;
             transform: scaleX(0);
-            background-color: variables.$color-lightblue;
+            background-color: variables.$color-purple;
             transition: transform 0.3s;
         }
     
@@ -42,5 +40,12 @@ header {
             }
         }
     }
-
+    @media (max-width: 425px) {
+        justify-content: center;
+        padding-left: 0;
+        a {
+            margin: 0 1rem;
+        }
+       
+    }
 }

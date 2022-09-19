@@ -1,49 +1,43 @@
 
 .container {
-    width: 80%;
-    height: 90vh;
+    width: 60%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
 
-    @media (max-width: 425px) {
-        section {
-            width: 100%;
-
-            p {
-                font-size: .75rem;
-            }
-
-            ul {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-            }
-        }
-    }
-
-    h2 {
-        margin-top: 1rem;
-        text-align: center;
-    }
-        
     section {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 4rem;
 
-        p {
-            width: 80%;
-            font-size: 1.1rem;
-            margin: 1rem 0;
+        h2 {
+            margin-bottom: .5rem;
         }
+
+        svg {
+            margin-left: 1rem;
+            vertical-align: middle ;
+        }
+    }
+    
+    @media (max-width: 425px) {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+
+        section {
+            margin-top: 0;
+
+            h2 {
+                font-size: 1.5rem;
+            }
             
-        nav {
-            margin-top: 1rem;
+            p {
+                margin-bottom: 1rem;
+            }
         }
-    } 
+    }
 }

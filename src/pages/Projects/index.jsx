@@ -1,12 +1,11 @@
-import Card from '../../components/Card'
+import Cards from '../../components/Cards'
 import styles from './styles.module.scss'
 
 export default function Projects() {
     return (
         <div className={styles.container}>
-            <h2>Projetos</h2>
             <section>
-                <Card/>
+                <Cards/>
             </section>
         </div>
     )
