@@ -10,7 +10,9 @@ export default function Home() {
                     <Typewriter/>
                 </main>
                 <footer>
-                    <p>Alessandro Rocha</p>
+                    <a href="https://github.com/sandrorochadev" target="_blank">
+                        Alessandro Rocha
+                    </a>
                     <Icons/>
                 </footer>
         </div>
