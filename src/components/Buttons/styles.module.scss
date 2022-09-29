@@ -12,11 +12,18 @@ nav {
         cursor: pointer; 
         display: flex;
         align-items: center;
-        background-color: variables.$color-purple;
+        background-color: variables.$color-red;
 
         &:hover {
-            transition: .5s ease-in-out;
-            background-color: variables.$color-purple-hover;
+            transition: .75s ease-in-out;
+            background-color: variables.$color-white;
+            a {
+                color: variables.$color-red;
+            }
+                svg {
+                    color: variables.$color-red;
+                }
+
         }
         
         svg {
