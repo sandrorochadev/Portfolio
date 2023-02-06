@@ -4,7 +4,7 @@
 
 Site desenvolvido para apresentação de projetos desenvolvidos e rede de contato, além de compartilhar experiência e conhecimentos adquiridos. Os projetos disponíveis no site são atualizados no próprio Github, com as informações sendo consumidas através da sua API.
 
-### 🚀 [Clique aqui para acessar](https://portfolio-bay-seven-79.vercel.app/)
+### 🚀 [Clique aqui para acessar](https://portfolio-eta-peach-59.vercel.app/*)
 
 ### 💾 Instalação
 
