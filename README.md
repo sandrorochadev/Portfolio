@@ -21,5 +21,7 @@ Site desenvolvido para apresentação de projetos desenvolvidos e rede de contat
 * [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 * [react-simple-typewriter](https://www.npmjs.com/package/react-simple-typewriter)
 * [react-icons](https://react-icons.github.io/react-icons/)
+* [swiper](https://swiperjs.com/)
+
 
 
