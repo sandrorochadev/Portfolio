@@ -4,7 +4,6 @@ import Header from './components/Header'
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import styles from './styles/main.scss';
 
 export default function App() {
     return (

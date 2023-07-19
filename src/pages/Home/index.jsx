@@ -1,6 +1,4 @@
 import Typewriter from '../../components/Typewriter'
-import { HiCode } from "react-icons/hi"
-import styles from './styles.module.scss';
 import Icons from '../../components/Icons'
 
 export default function Home() {

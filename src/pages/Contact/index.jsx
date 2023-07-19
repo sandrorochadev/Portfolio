@@ -1,8 +1,6 @@
-import Icons from '../../components/Icons'
 import Buttons from '../../components/Buttons'
 import { TbMessageCircle } from "react-icons/tb";
 import { FiCoffee } from "react-icons/fi";
-import styles from './styles.module.scss'
 
 export default function Contact() {
     return (

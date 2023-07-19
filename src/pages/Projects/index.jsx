@@ -1,5 +1,4 @@
 import Cards from '../../components/Cards'
-import styles from './styles.module.scss'
 
 export default function Projects() {
     return (

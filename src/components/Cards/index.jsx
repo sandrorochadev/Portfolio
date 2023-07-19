@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import styles from './styles.module.scss'
 
 export default function Cards() {
     const [ repositories, setRepositories ] = useState([])

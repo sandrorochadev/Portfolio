@@ -1,4 +1,3 @@
-import styles from './styles.module.scss'
 import { FaReact, FaSass } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiNodedotjs } from "react-icons/si";
 
