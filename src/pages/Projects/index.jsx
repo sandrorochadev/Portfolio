@@ -1,11 +1,13 @@
-import Cards from '../../components/Cards'
+import Cards from "../../components/Cards"
 
-export default function Projects() {
+function Projects() {
     return (
-        <div className={styles.container}>
-            <section>
+        <div>
+            <div className="container max-w-sm mx-auto mt-8 flex flex-col">
                 <Cards/>
-            </section>
+            </div>
         </div>
     )
 }
+
+export default Projects
