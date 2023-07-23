@@ -2,7 +2,7 @@ import Icons from "../../components/Icons"
 
 function Home() {
     return (
-        <div className="container max-w-sm mx-auto mt-8 flex flex-col gap-2">
+        <div className="container w-72 md:w-2/4 mx-auto mt-8 flex flex-col gap-2">
             <div className="text-2xl font-bold">
                 <h1>Alessandro Rocha</h1>
                 <h1>Software Developer</h1>
