@@ -13,7 +13,7 @@ export default function Cards() {
         <section className='flex flex-col gap-6'>
             { repositoriesFilter.map(repository => {
                     return (
-                        <div key={repository.id}>
+                        <div className='hover:bg-zinc-800 p-4 rounded' key={repository.id}>
                             <h2 className='text-lg font-semibold'>{repository.name}</h2>
                             <p className='font-light'>{repository.description}
                                 <a className='mx-1' href={`${repository.homepage}`} target="_blank">Clique aqui</a>
