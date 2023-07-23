@@ -10,15 +10,14 @@ export default function Cards() {
     const repositoriesFilter = repositories.filter(item => item.homepage !== null && item.homepage !== '' && item.name !== 'Portfolio')
     
     return (
-        <section className='flex flex-col  gap-4'>
+        <section className='flex flex-col gap-6'>
             { repositoriesFilter.map(repository => {
                     return (
                         <div key={repository.id}>
-                            <h2>{repository.name}</h2>
-                            <p>{repository.description}</p>
-                            <button>
-                                <a href={`${repository.homepage}`} target="_blank">clique aqui</a>
-                            </button>
+                            <h2 className='text-lg font-semibold'>{repository.name}</h2>
+                            <p className='font-light'>{repository.description}
+                                <a className='mx-1' href={`${repository.homepage}`} target="_blank">Clique aqui</a>
+                            </p>
                         </div>
                     )
                 })
