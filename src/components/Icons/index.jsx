@@ -1,14 +1,19 @@
-import { FaReact, FaSass } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss, SiNodedotjs } from "react-icons/si";
 
-export default function Icons() {
+import { BiLogoNodejs, BiLogoTypescript, BiLogoReact, BiLogoTailwindCss} from 'react-icons/bi'
+import {RiJavascriptFill} from 'react-icons/ri'
+import {SiNextdotjs} from 'react-icons/si'
+
+function Icons() {
     return (
-        <ul>
-            <li className={styles.yellow}><SiJavascript/></li>
-            <li className={styles.blue}><FaReact/></li>
-            <li className={styles.green}><SiNodedotjs/></li>
-            <li className={styles.blue}><SiTailwindcss/></li>
-            <li className={styles.pink}><FaSass/></li>
-        </ul>
+        <nav className='flex gap-2 mt-2 text-lg'>
+            <RiJavascriptFill className='text-yellow-500'/>
+            <BiLogoNodejs className='text-green-500'/>
+            <BiLogoTypescript className='text-sky-500'/>
+            <BiLogoReact className='text-emerald-500'/>
+            <SiNextdotjs className="text-white"/>
+            <BiLogoTailwindCss className='text-sky-500'/>
+        </nav>
     );
 }
+
+export default Icons
