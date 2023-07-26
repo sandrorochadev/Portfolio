@@ -5,7 +5,7 @@ import {SiNextdotjs} from 'react-icons/si'
 
 function Icons() {
     return (
-        <nav className='flex gap-2 mt-2 text-lg'>
+        <nav className='flex gap-2 mt-2 text-lg md:text-xl'>
             <RiJavascriptFill className='text-yellow-500'/>
             <BiLogoNodejs className='text-green-500'/>
             <BiLogoTypescript className='text-sky-500'/>
