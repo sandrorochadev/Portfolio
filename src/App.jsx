@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Links from "./pages/Links";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="projects" element={<Projects/>}/>
             <Route path="links" element={<Links/>}/>
         </Routes>
+        <Footer/>
     </>
     )
 }
