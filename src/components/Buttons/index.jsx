@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaRegEnvelope} from "react-icons/fa";
+import styles from './styles.module.scss'
 
 export default function Buttons() {
     return (

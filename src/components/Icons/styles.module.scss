@@ -1,0 +1,29 @@
+@use '../../styles/variables';
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+
+    li {
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    .blue {
+        color: variables.$color-blue;
+    }
+
+    .yellow {
+        color: variables.$color-yellow;
+    }
+
+    .pink {
+        color: variables.$color-pink;
+    }
+
+    .green {
+        color: variables.$color-green;
+    }
+}
+

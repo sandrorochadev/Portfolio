@@ -1,13 +1,12 @@
-import Cards from "../../components/Cards"
+import Cards from '../../components/Cards'
+import styles from './styles.module.scss'
 
-function Projects() {
+export default function Projects() {
     return (
-        <div>
-            <div className="container w-72 md:w-2/4 mx-auto mt-8 flex flex-col">
+        <div className={styles.container}>
+            <section>
                 <Cards/>
-            </div>
+            </section>
         </div>
     )
 }
-
-export default Projects
