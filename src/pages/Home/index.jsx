@@ -11,7 +11,7 @@ export default function Home() {
                 </main>
                 <footer>
                     <a href="https://github.com/sandrorochadev" target="_blank">
-                        Alessandro Rocha
+                        GitHub
                     </a>
                     <Icons/>
                 </footer>
